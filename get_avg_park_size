@@ -1,0 +1,6 @@
+parks_count = input().split(" ")
+park_acres = input().split(" ")
+
+for i in range(len(parks_count)):
+    avg_park_size = float(park_acres[i])/float(parks_count[i])
+    print(avg_park_size)
