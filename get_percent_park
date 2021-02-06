@@ -1,0 +1,6 @@
+CTA_acres = input().split(" ")
+park_acres = input().split(" ")
+
+for i in range(len(CTA_acres)):
+    percent_park = CTA_acres/park_acres
+    print(percent_park)
